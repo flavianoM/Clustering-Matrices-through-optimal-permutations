@@ -1,11 +1,13 @@
 **** BANDWIDTH CLUSTERING ****
 
-To compile the source code type: gcc -o opp opp_bandwidth.c -lm -O3
+To compile the source code download the files "opp.h" and "opp_bandwidth.c" and put them in the same folder. 
+
+Open a terminal and type: gcc -o opp opp_bandwidth.c -lm -O3
 
 To run the executable file type: ./opp <graph.txt> <p> 
 
-<graph.txt> is the input file containing the graph formatted as an adjacency matrix. Start with a graph with N < 100 nodes (you should be able to use the code up to N ~ O(10^3) nodes.
-
+<graph.txt> is the input file containing the graph formatted as an adjacency matrix. Start with a graph with N < 100 nodes (you should be able to run the algorithm on graphs up to N ~ O(10^3) nodes).
+                                                                                                                    
 <p> is a float between 0 and 1, measuring the bandwidth of the clustering. Start with p = 0.5. 
 
 The program outputs four files: <bandwidth_r0.50_graph.txt>, <bandwidth_s0.50_graph.txt>, <bandwidth_r0.50_graph.txt>
@@ -23,11 +25,13 @@ To plot the input graph open gnuplot and type: set view map, splot 'bandwidth_b0
 
 **** NESTEDNESS CLUSTERING ****
 
-To compile the source code type: gcc -o opp opp_nestedness.c -lm -O3
+To compile the source code download the files "opp.h" and "opp_nestedness.c" and put them in the same folder. 
+
+Open a terminal and type: gcc -o opp opp_nestedness.c -lm -O3
 
 To run the executable file type: ./opp <graph.txt> <p> 
 
-<graph.txt> is the input file containing the graph formatted as an adjacency matrix. Start with a graph with N < 100 nodes (you should be able to use the code up to N ~ O(10^3) nodes.
+<graph.txt> is the input file containing the graph formatted as an adjacency matrix. Start with a graph with N < 100 nodes (you should be able to run the algorithm on graphs up to N ~ O(10^3) nodes).
 
 <p> is a float between 0 and 1, measuring the curvature of the nested region of the matrix. The smaller the <p> the higher is the nestedness. Start with p = 0.5. 
 
