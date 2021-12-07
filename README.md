@@ -96,5 +96,11 @@ To plot the clustered graph open gnuplot and type: set view map, splot 'triangul
 To plot the optimal permutation matrix open gnuplot and type: set view map, splot 'triangular_x3_graph.txt' u 1:2:3 w p pt 5 palette
 
 To plot the input graph open gnuplot and type: set view map, splot 'triangular_b3_graph.txt' u 1:2:3 w p pt 5 palette
+  
+  
+  
+  
+  
+For more information, visit https://theconceptron.com/assets/opp2.pdf
 
 
