@@ -1,3 +1,6 @@
+//Created on 2021
+//Author: Flaviano Morone
+
 **** BANDWIDTH CLUSTERING **** Figure1(a)
 
 To compile the source code download the files "opp.h" and "opp_bandwidth.c" and put them in the same folder. 
