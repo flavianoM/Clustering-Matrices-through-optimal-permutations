@@ -1,5 +1,5 @@
-//Created in 2021
-//Author: Flaviano Morone
+Created in 2021
+Author: Flaviano Morone
 
 **** BANDWIDTH CLUSTERING **** Figure1(a)
 
