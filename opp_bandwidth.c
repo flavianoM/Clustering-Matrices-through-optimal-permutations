@@ -1,3 +1,6 @@
+//Created on 2021
+//Author: Flaviano Morone
+
 #include"opp.h"
 
 /* Normalize matrix A to a doubly-stochastic form */
