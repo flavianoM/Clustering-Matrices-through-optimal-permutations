@@ -1,3 +1,6 @@
+//Created on 2020
+//Author: Flaviano Morone
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
